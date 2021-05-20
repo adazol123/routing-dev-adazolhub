@@ -18,9 +18,10 @@
 }
 
 .footer {
-  width: 100%;
+  width: 60%;
   height: 100px;
-  border-top: 1px solid #eaeaea;
+  border-top: 1px solid #8b8b8b;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -118,4 +119,25 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.bgWrap {
+  position: relative;
+  height: 110vh;
+  width: 100vw;
+  overflow: hidden;
+  z-index: 1;
+  top: -10vh;
+}
+.bgText {
+  position: absolute;
+  margin: 80px;
+  
+  font-size: 1.5rem;
+  /* line-height: 3rem; */
+  text-align: end;
+  padding-top: 0;
+  /* color: #000; */
+  text-shadow: 1px 1px 1px #3c5c5e;
+  z-index: 5;
 }
